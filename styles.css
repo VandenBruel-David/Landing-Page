@@ -28,16 +28,26 @@ body {
   background-color: #e5e7eb;
   width: 70vw;
   height: 22vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .container3 {
   background-color: white;
   width: 70vw;
   height: 19vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .footer {
   background-color: #1f2937;
   width: 70vw;
   height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .header {
   display: flex;
@@ -128,4 +138,41 @@ h2 {
   display: flex;
   text-align: center;
   margin-top: -5px;
+}
+.text {
+  font-size: 24px;
+  font-style: italic;
+  color: #1f2937;
+  width: 500px;
+}
+.thor {
+  font-weight: bold;
+  text-align: end;
+  width: 500px;
+}
+.blue {
+  width: 650px;
+  height: 100px;
+  background-color: #3882f6;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+h3 {
+  color: white;
+  font-size: 16px;
+}
+.little {
+  font-size: 14px;
+  color: white;
+}
+.sign {
+  border: 1px solid white;
+}
+.copy {
+  color: #e5e7eb;
+  font-size: 14px;
 }
