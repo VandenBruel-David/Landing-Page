@@ -18,6 +18,11 @@ body {
   background-color: white;
   width: 70vw;
   height: 26vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 50px;
 }
 .container2 {
   background-color: #e5e7eb;
@@ -98,4 +103,29 @@ button {
 button:hover {
   background-color: #3882f6;
   opacity: 0.6;
+}
+.vierkant {
+  border: 3px solid #3882f6;
+  width: 100px;
+  height: 100px;
+  border-radius: 12px;
+  margin: 10px;
+}
+h2 {
+  display: block;
+}
+.squares {
+  display: flex;
+  margin-top: 20px;
+}
+.small-text {
+  width: 106px;
+  height: auto;
+  font-size: 12px;
+  margin: 0 7px;
+}
+.subtext {
+  display: flex;
+  text-align: center;
+  margin-top: -5px;
 }
